@@ -1,0 +1,57 @@
+h1{
+   font-size: 70px;
+    color: rgb(85, 85, 43);
+    display: flex;
+    justify-content: center;
+    
+
+}
+div[id="box"]{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+size: 50px;
+color: transparent;
+}
+body{
+    background-image: url('1332278.jpeg');
+    background-size: cover;
+}
+button[id="d"] {
+     position: fixed;
+            bottom: 30%;
+            left: 45%;
+            font-size: 50px;
+            background-color: rgb(187, 226, 226);
+
+           }
+p[id="result"]{
+    color: rgb(170, 13, 181);
+    font-size: 100px;
+    position: fixed;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+div[id="s"]{
+    position: fixed;
+    display: flex;
+    top: 30%;
+    left: 45%;
+    border: 2px solid rgb(70, 58, 58);
+   background-color: rgb(161, 226, 226);
+   color: rgb(28, 9, 9);
+   border-radius: 20px;
+}
+
+.hover button[id="d"]:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 0.15s ease-in-out;
+}

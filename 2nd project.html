@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>calculator</h1>
+    </header>
+    <main>
+
+        <div id="box">
+            <input type="number" id="n1" placeholder="Enter first number">
+
+            <input type="number" id="n2" placeholder="Enter the second number">
+        </div>
+        <div id="s">
+          <label for="o"></label>Select an operator:</label>
+          <select id="o">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+          </select>
+
+        </div>
+
+        <button id="d" onclick="calculate()">calculate</button>
+        <p id="result"></p>
+    </main>
+    <script src="cal.js"></script>
+</body>
+
+</html>
